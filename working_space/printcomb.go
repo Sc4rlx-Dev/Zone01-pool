@@ -1,10 +1,10 @@
 package piscine
-// package main
-
-import "piscine"
 
 
-func printcomb(){
+import "github.com/01-edu/z01"
+
+
+func PrintComb(){
 	var del string = ", "
 	for i:= 0; i <= 7; i++{
 		for j:= i + 1; j <= 8; j++{
