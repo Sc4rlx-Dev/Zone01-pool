@@ -1,8 +1,8 @@
 package piscine
+// package main
 
-import "github.com/01-edu/z01"
+import "piscine"
 
-//012, 013, 014, 015, 016, 017, 018, 019, 023, ..., 689, 789$
 
 func printcomb(){
 	var del string = ", "
@@ -23,3 +23,6 @@ func printcomb(){
 z01.PrintRune('\n')
 }
 
+// func main(){
+// 	printcomb()
+// }
