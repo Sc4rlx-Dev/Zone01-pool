@@ -1,7 +1,12 @@
 package main
 
-import "piscine"
+import (
+	// "fmt"
+	"piscine"
+)
+	
+	
 
 func main(){
-	piscine.PrintNbr(122222)
+	piscine.QuadA2()
 }
