@@ -12,17 +12,19 @@ func QuadB(x, y int) {
 
     for i := 1; i <= yMax; i++ {
         for j := 1; j <= xMax; j++ {
-			if (i == 1 && j == 1) || (i == yMax && j == xMax){
-				z01.PrintRune('/')
-			}else if i == 1 && j == xMax{
+            if i == 1 && j == 1 {
+                z01.PrintRune('/')
+            } else if i == 1 && j == xMax {
                 z01.PrintRune('\\')
-            }else if i == yMax && j == 1{
+            } else if i == yMax && j == 1 {
                 z01.PrintRune('\\')
-            }else if i == 1 || i == yMax{
+            } else if i == yMax && j == xMax {
+                z01.PrintRune('/')
+            } else if i == 1 || i == yMax {
                 z01.PrintRune('*')
-            }else if j == 1 || j == xMax{
+            } else if j == 1 || j == xMax {
                 z01.PrintRune('*')
-            }else{
+            } else {
                 z01.PrintRune(' ')
             }
         }

@@ -1,7 +1,8 @@
 package main
 
-import "piscine"
+// import "piscine"
 
 func main() {
-	piscine.QuadB(5,5)
+	// piscine.QuadB(4,4)
+	// piscine.
 }

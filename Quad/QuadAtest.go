@@ -2,7 +2,7 @@ package piscine
 
 import "fmt"
 
-func QuadA(x,y int) {
+func QuadAT(x,y int) {
 	tmpx := x
 	tmpy := x
 	flag := 0
