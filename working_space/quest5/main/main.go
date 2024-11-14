@@ -11,8 +11,6 @@
 // 	fmt.Println(nb)
 // }
 
-
-
 package main
 
 import (
@@ -21,7 +19,5 @@ import (
 )
 
 func main() {
-	fmt.Println(piscine.PrintNbrInOrder(321))
-	// fmt.Println(piscine.Index("Salut!", "alu"))
-	// fmt.Println(piscine.Index("Ola!", "h01"))
+	fmt.Println(piscine.Capitalize("hello! world How are You"))
 }
