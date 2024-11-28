@@ -10,7 +10,6 @@ func PrintNbrBase(nbr int, base string) {
 		}
 		return
 	}
-
 	if nbr < 0 {
 		z01.PrintRune('-')
 		nbr = -nbr
